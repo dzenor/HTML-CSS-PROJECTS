@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+    }
+
+    .navigacija{
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0px;
+       
+    }
+    
+    .linkovi{
+        display: flex;
+        list-style: none;
+        
+    }
+    
+    a{
+        padding: 8px;
+        text-decoration: none;
+        color: grey;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    
+
+.sec1{
+    max-width: 100%;
+    min-height: 450px;
+    background-image: url(assets/about/desktop/image-hero-whitecup.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 150px;
+}
+
+.about-us{
+    margin-left: 10%;
+    width: 40%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.sec1-h1{
+    color: #fefcf7;
+    font-size: 3rem;
+}
+
+
+.sec1-p{
+    color: #fefcf7;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.sec2{
+    max-width: 100%;
+    min-height: 500px;
+    margin-bottom: 150px;
+    display: flex;
+   margin-left: 90px;
+}
+
+
+.sec2-txt{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 3%;
+    gap: 20px;
+    align-items: flex-start;
+
+}
+
+.sec2-h1{
+    color: #333D4B;
+}
+
+.sec2-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: gray;
+    max-width: 500px;
+}
+
+.sec3{
+    max-width: 100%;
+    min-height: 600px;
+    margin-bottom: 150px;
+   
+}
+
+
+.sec3-bluebox{
+    max-width: 100%;
+    max-height: 450px;
+    background-image: url(assets/about/desktop/bg-quality.png);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 180px;
+    border-radius: 10px 0 0 0;
+}
+
+
+.sec3-coffeimg{
+    max-width: 445px;
+    min-height: 474px;
+    border-radius: 8px;
+    background-image: url(assets/about/desktop/image-quality.jpg);
+    position: relative;
+    bottom: 420px;
+    left: 750px;
+}
+
+.Uncompromising{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 4%;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.sec3-h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fefcf7;
+    width: 100px;
+}
+
+.sec3-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+}
+
+.sec4{
+    max-width: 100%;
+    min-height: 480px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+}
+
+.sec4-h1{
+    color: #83888F;
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 2rem
+}
+
+.sec4-img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+}
+
+
+.boxes{
+    display: flex;
+    justify-content: flex-start;
+    gap: 260px;
+}
+
+span{
+    color: gray;
+    line-height: 30px;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+footer{
+    max-width: 100%;
+    min-height: 100px;
+    background-color: #2c343e;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.icons{
+    word-spacing: 10px;
+}
